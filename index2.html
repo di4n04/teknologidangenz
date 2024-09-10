@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2</title>
+    <link rel="stylesheet" href="scc.css">
+</head>
+<body class="section">
+        <h1 style="text-align: center;"><b>Study Abroad Application Form</b></h1>
+    <form method="get">
+        <fieldset>
+            <legend><b>Student Information</b></legend>
+            <table><tr>
+                    <td><label for="Dian">Name(*)</label></td>
+                    <td><input type="text" id="Name" name="Name"required></td>
+                </tr>
+                <tr>
+                    <td><label for="Email">Email(*)</label></td>
+                    <td><input type="text" id="Email" name="Email"></td>
+                </tr>
+                <tr>
+                    <td><label for="Pass">Password(*)</label></td>
+                    <td><input type="password" id="Password" name="Password"></td>
+                </tr>
+                <tr>
+                    <td><label for="Confirm">Confirm Password(*)</label></td>
+                    <td><input type="Confirm" id="Confirm" name="Password"></td>
+                </tr>
+                <tr>
+                    <td><label for="Gender">Gender</label></td>
+
+                    <td><input type="radio" id="Male" name="Female">
+                    <label for="Male">Male</label><br>
+
+                    <input type="radio" id="Female" name="Female">
+                    <label for="Female">Female</label></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Birth Date</label></td>
+                    <td><input type="date" id="date" name="Birth date"></td>
+                </tr>
+                <tr>
+                    <td><label for="Program">Program</label></td>
+                    <td>
+                       <select name="Program" id="Program">
+                           <option value="#">--Programs--</option>
+                           <option value="Artificial Intelligence">Artificial Intelligence</option>
+                           <option value="Cyber Security">Cyber Security</option>
+                           <option value="Digital Business">Digital Business</option>
+                           <option value="Game Application and Technology">Game Application and Technology</option>
+                           <option value="Global Business Marketing">Global Business Marketing</option>
+                           <option value="International Relations">International Relations</option>
+                           <option value="Interior Design">Interior Design</option>
+                       </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td><label for="WWYLTS">When would you like to start studying?</label></td>
+
+                        <td><input type="checkbox" id="Start in Sep 2025" name="Start in Sep 2025">
+                        <label for="Start in Sep 2025">Start in Sep 2025</label><br>
+                        
+                        <input type="checkbox" id="Start in Jan 2025" name="Start in Jan 2025">
+                        <label for="Start in Sep 2025">Start in Jan 2025</label>
+                        </td>
+                    </tr>
+            </table>
+        </fieldset>
+    </form>
+    <br>
+    <form method="get">
+        <fieldset><legend><b>Primary Parent Information</b></legend>
+            <table>
+                <tr>
+                    <td><label for="name">Name(*)</label></td>
+                    <td><input type="text" id="name" name="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="Email">Email(*)</label></td>
+                    <td><input type="text" id="Email" name="Email"></td>
+                </tr>
+                <tr>
+                    <td><label for="Confirm">Confirm Email(*)</label></td>
+                    <td><input type="Confirm" id="Confirm" name="Email"></td>
+                </tr>
+                <tr>
+                    <td><label for="Phone">Phone</label></td>
+                    <td><input type="text" id="Phone" name="Phone"></td>
+                </tr>
+                <tr>
+                    <td><label for="Relationship To Student">Relationship To Student</label></td>
+                    <td><input type="radio" id="Father" name="father">
+                    <label for="Father">Father</label><br>
+                
+                    <input type="radio" id="Mother" name="father">
+                    <label for="Mother">Mother</label></td>  
+                </tr>
+                <tr>
+                    <td><label for="address">Address</label></td>
+                    <td><textarea name="Address" id="Address" rows="2" cols="20">Address</textarea></td>
+                </tr>
+                <tr>
+                    <td>
+                    </button><button type="apply"><b>Apply</b></button>
+                    <button type="Cancel"><b>Cancel</b></button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
