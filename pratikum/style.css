@@ -1,0 +1,34 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.container {
+    display: grid;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+}
+
+.card {
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.411);
+    background-color: rgb(255, 255, 255);
+    transition: all 0.5s;
+}
+
+
+.container :hover {
+    webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.card :hover {
+    webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    cursor: pointer;
+}
