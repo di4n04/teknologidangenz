@@ -1,0 +1,43 @@
+fieldset {
+    background-color: #f2dab6;
+    border-color: #2d2c2;
+    border-radius: 10px;
+    color: #2d2c29e4;
+}
+h1 {
+    font-style: inherit; font-family:Verdana, Geneva, Tahoma, sans-serif; color: rgb(79, 67, 51);
+}
+ input {
+     background-color: #d1bfa7;
+     border-color: rgb(146, 122, 92); border-radius: 5px;
+     color: #2d2c29;
+     font size: 15px;
+ }
+ select {
+    background-color: #d1bfa7;
+    border-color: rgb(146, 122, 92); border-radius: 5px;
+     font size: 15px;
+ }
+ textarea {
+    background-color: #d1bfa7;
+    border-color: rgb(146, 122, 92); border-radius: 5px;
+    color: #e4e4e4;
+    font size: 15px;
+}
+button {
+    background-color: #a37b1e;
+    border-color: rgb(255, 239, 205);
+    border-radius: 5px;
+    color: #2d2c29e4;
+    font size: 15px;
+}
+*/html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+body{margin:3%}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary 
+h1{font-size:2em;margin:0.67em 0}
+
+button,input,optgroup,select,textarea{color:inherit;font:inherit;margin: 1px;}
+
+body
+{font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:.875rem;line-height:1.42857;background-color: #9e9885;}
+   
+   
